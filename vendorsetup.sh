@@ -14,4 +14,4 @@
 # limitations under the License.
 #
 
-add_lunch_combo lineage_karin_windy-userdebug
+add_lunch_combo lineage_karin-userdebug

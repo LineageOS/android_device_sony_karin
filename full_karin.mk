@@ -16,14 +16,19 @@
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from karin_windy device
-$(call inherit-product, device/sony/karin_windy/device.mk)
+# Inherit from karin-common device
+$(call inherit-product, device/sony/karin/device.mk)
+
+# Add karin specific permissions
+PRODUCT_COPY_FILES += \
+	frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml
+
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_BRAND := Sony
-PRODUCT_NAME := full_karin_windy
+PRODUCT_NAME := full_karin
 PRODUCT_MANUFACTURER := Sony
-PRODUCT_DEVICE := karin_windy
-PRODUCT_MODEL := Xperia Z4 Tablet Wifi
+PRODUCT_DEVICE := karin
+PRODUCT_MODEL := Xperia Z4 Tablet

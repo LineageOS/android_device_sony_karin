@@ -50,7 +50,7 @@ EOF
 
 LOCAL_PATH := \$(call my-dir)
 
-ifeq (\$(TARGET_DEVICE),karin_windy)
+ifeq (\$(TARGET_DEVICE),karin)
 
 include \$(CLEAR_VARS)
 LOCAL_MODULE := libtime_genoff

@@ -1,6 +1,6 @@
 [
   {
-    "repository": "android_device_sony_kitakami-common",
-    "target_path": "device/sony/kitakami-common"
+    "repository": "android_device_sony_karin_windy",
+    "target_path": "device/sony/karin_windy"
   }
 ]

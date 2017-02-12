@@ -25,7 +25,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),karin_windy)
+ifeq ($(TARGET_DEVICE),karin)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
