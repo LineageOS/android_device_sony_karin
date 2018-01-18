@@ -18,6 +18,12 @@ include device/sony/karin_windy/BoardConfigCommon.mk
 
 DEVICE_PATH := device/sony/karin
 
+# Properties
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+
+# Radio
+TARGET_HAVE_RADIO := true
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := SGP771,karin
 
