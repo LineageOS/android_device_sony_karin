@@ -22,7 +22,3 @@ $(call inherit-product, vendor/sony/karin/karin-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
-
-# Permissions
-PRODUCT_COPY_FILES += \
-
