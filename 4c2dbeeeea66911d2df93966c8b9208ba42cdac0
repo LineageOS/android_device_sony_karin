@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4fba0731_919a3d11",
+        "filename": "setup-makefiles.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 11608
+      },
+      "writtenOn": "2018-02-20T17:02:19Z",
+      "side": 1,
+      "message": "setup-makefiles.sh\n\nSame for windy. :-)",
+      "revId": "4c2dbeeeea66911d2df93966c8b9208ba42cdac0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
